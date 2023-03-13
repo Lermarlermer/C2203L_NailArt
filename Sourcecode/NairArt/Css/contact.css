@@ -1,0 +1,33 @@
+#Main {
+    background-color: #ffffff;
+    padding-bottom: 80px;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+textarea {
+    min-height: 190px;
+}
+.divmain {
+    position: relative;
+    height: 500px;
+    overflow-y: scroll;
+}
+.divmain h3{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    font-size: 30px;
+}
+table>thead>tr>th, table>tbody>tr>th{
+    font-weight: bold;
+}
+
+.section-title p{
+    margin-bottom: 10px;
+}

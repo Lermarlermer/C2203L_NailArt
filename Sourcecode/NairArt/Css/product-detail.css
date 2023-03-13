@@ -1,0 +1,121 @@
+#Main {
+    background-color: #ffffff;
+    padding-bottom: 80px;
+}
+
+#Main::after {
+    display: table;
+    clear: both;
+    content: '';
+}
+
+
+.divleft img {
+    width: 100%;
+}
+
+article {
+    background-color: #fff;
+    padding: 30px 30px 0 30px;
+}
+
+.divright p {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.divleft {
+    color: #777777;
+}
+
+.title {
+    color: #d568b8;
+    font-weight: bold;
+    padding: 20px 0px;
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 801px) {
+    .divleft {
+        width: 40%;
+        float: left;
+    }
+
+    .divright {
+        width: 60%;
+        float: right;
+        padding: 0 20px;
+    }
+
+    .title {
+        padding: 20px 0px;
+        font-size: 20px;
+    }
+
+    .divright p {
+        margin-bottom: 10px;
+        padding-left: 10px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+}
+
+@media only screen and (min-width: 1001px) {
+    .divleft {
+        width: 35%;
+        float: left;
+    }
+
+    .divright {
+        width: 65%;
+        float: right;
+        padding: 10px 20px;
+    }
+
+
+    .title {
+        font-size: 30px;
+        padding: 20px 0px;
+    }
+
+    .divright p {
+        margin-bottom: 10px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+}
+
+@media only screen and (max-width: 800px) {
+    .divleft {
+        width: 100%;
+        float: none;
+    }
+
+    .divright {
+        width: 100%;
+        float: none;
+        padding: 0 20px;
+    }
+
+    .title {
+        font-size: 24px;
+        padding: 10px 0px;
+    }
+
+    .divleft img {
+        padding: 20px 20%;
+    }
+
+    .divright p {
+        margin-bottom: 10px;
+        padding-left: 10px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+}

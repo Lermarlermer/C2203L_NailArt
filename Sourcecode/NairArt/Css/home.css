@@ -1,0 +1,138 @@
+
+#Main {
+    background-color: #000000;
+}
+
+.ZX {
+    width: 50%;
+    float: left;
+}
+
+.swiper {
+    margin-bottom: 20px;
+    width: 100%;
+    height: auto;
+    /* padding: 0.5%; */
+    overflow: hidden;
+    position: relative;
+    border-radius: 5px;
+}
+
+.swiper>a>p {
+    border-radius: 100vw;
+    padding: 6px;
+    background-color: rgba(0, 0, 0, 0.433);
+    color: #ffffffce;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    white-space: nowrap;
+    top: 50%;
+    z-index: 999999;
+    font-size: 26px;
+    font-family:'Island Moments', cursive;
+}
+.swiper>a>p:hover {
+    border: 1px solid #ffffff8e;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    width: 34px;
+    height: 34px;
+    color: #ffffff;
+    border-radius: 100vw;
+    background-color: #000000aa;
+    border: 1q solid #ffffffaa;
+}
+
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+    font-size: 18px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    color: #ffffff;
+    font-weight: 100;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #ffffff;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.aaa {
+    width: 100%;
+}
+
+
+.bbbL{
+    left: 0;
+    float: left;
+}
+.bbbR{
+    right: 0;
+    float: right;
+}
+
+
+.aaa > .bbbL, .bbbR{
+    color: #ffffff;
+    width: 80%;
+    font-size: 28px;
+    padding: 50px 0px;
+    font-weight: bold;
+    background-color: #000000;    
+    position: static;
+    font-family: 'Acme', sans-serif;
+}
+
+.maincontent{
+    background-color: #eeeeee;
+    float: left;
+    padding: 50px;
+}
+
+
+#titleH1{
+    font-size: 64px;
+    padding: 50px;
+    padding-left: 0;
+    background-color: #000000;
+    color: #fff;
+    font-weight: bold;
+}
+
+.history-img{
+    width: 100%;
+    padding: 0 50px;
+}
+
+.history-cntr{
+    background-color: #000000;
+    font-family: 'Acme', sans-serif;
+}
